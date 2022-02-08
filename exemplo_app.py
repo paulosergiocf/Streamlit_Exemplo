@@ -22,7 +22,7 @@ else:
     st.header("Mostrando resultado para todos os paises")
 
 if (variante != 'Todas'):
-    st.subheader("Mostrando rpara variante " + variante)
+    st.subheader("Mostrando para variante " + variante)
     df = df[df['variant'] == variante]
 
 else:
