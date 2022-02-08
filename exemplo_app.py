@@ -26,7 +26,7 @@ if (variante != 'Todas'):
     df = df[df['variant'] == variante]
 
 else:
-    st.subheader("Mostrando resultado para todos os paises")
+    st.subheader("Mostrando resultado para todas as variantes")
 
 dfShow = df.groupby(by=['date']).sum()
 
