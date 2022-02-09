@@ -33,6 +33,6 @@ dfShow = df.groupby(by=['date']).sum()
 import plotly.express as px
 
 fig = px.line(dfShow, x=dfShow.index, y='num_sequences')
-fig.update_layout(title='Casos diarios Covid-19' )
+fig.update_layout(title='Casos diários Covid-19' )
 #mostra figura criada pelo plotly
 st.plotly_chart(fig, use_container_width=True)
